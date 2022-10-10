@@ -5,7 +5,7 @@ import Quiz from '../Quiz/Quiz';
 const Home = () => {
     const quizData = useLoaderData();
     const quizzes = quizData.data;
-    // console.log(quiz);
+    // console.log(quizzes);
     return (
         <div>
             <div className='flex flex-col md:flex-row justify-center items-center md:mx-20'>
@@ -16,7 +16,7 @@ const Home = () => {
                     <h2>Quizzes like these will encourage your's self awareness of progress and self assessment. By taking quizzes, you will get instant feedback on your responses. And this can help you identify areas you need to develop yourselves and highlight progress for you to be proud of.</h2>
                 </div>
             </div>
-            <div className='grid grid-cols-1 gap-2 mt-5 mx-5 lg:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-1 gap-2 mt-5 mx-5 lg:grid-cols-4 lg:gap-4'>
                 {
                     quizzes.map(quiz => <Quiz key={quiz.id} quiz={quiz} ></Quiz>)
                 }
