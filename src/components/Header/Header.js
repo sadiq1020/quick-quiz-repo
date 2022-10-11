@@ -8,9 +8,9 @@ const Header = () => {
                 <NavLink to='/'><h2 className='text-3xl font-semibold'>Quick <span className='text-blue-800'>Quiz</span></h2></NavLink>
             </div>
             <div className=''>
-                <NavLink to='/'><span className='mx-2 text-lg font-serif'>Home</span></NavLink>
-                <NavLink to='/statistics'><span className='mx-2 text-lg font-serif'>Statistics</span></NavLink>
-                <NavLink to='/blog'><span className='mx-2 text-lg font-serif'>Blog</span></NavLink>
+                <NavLink to='/home' className={({ isActive }) => isActive ? 'mx-2 text-lg font-serif text-blue-800' : 'mx-2 text-lg font-serif'}>Home</NavLink>
+                <NavLink to='/statistics' className={({ isActive }) => isActive ? 'mx-2 text-lg font-serif text-blue-800' : 'mx-2 text-lg font-serif'}>Statistics</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'mx-2 text-lg font-serif text-blue-800' : 'mx-2 text-lg font-serif'} to='/blog'>Blog</NavLink>
             </div>
         </nav>
     );
