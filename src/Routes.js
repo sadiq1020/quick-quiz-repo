@@ -4,11 +4,13 @@ import Main from "./layouts/Main";
 import Statistics from "./components/Statistics/Statistics";
 import Blog from "./components/Blog/Blog"
 import QuizTest from "./components/QuizTest/QuizTest";
+import ErrorPage from "./components/ErrorPage";
 
 export const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
