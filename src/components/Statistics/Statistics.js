@@ -8,7 +8,7 @@ const Statistics = () => {
     console.log(quizzes);
 
     return (
-        <div className='w-[80%] lg:w-[40%] h-96 mt-10'>
+        <div className='w-[90%] lg:w-[40%] h-96 mt-10'>
             <h2 className='text-2xl text-sky-600 text-center my-6'><strong>Bar chart</strong> of total quiz questions of each topic</h2>
             <ResponsiveContainer width="100%" height="100%">
                 <BarChart width={400} height={200} data={quizzes}>

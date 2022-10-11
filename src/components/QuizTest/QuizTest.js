@@ -7,11 +7,9 @@ const QuizTest = () => {
     const quizTestData = useLoaderData();
     const quizTest = quizTestData.data;
     const { name, questions } = quizTest;
-    // console.log(questions);
 
 
     const showWriteAnswer = (correctAnswer) => {
-        // console.log(correctAnswer);
         toast.info(`Correct Answer: ${correctAnswer}`, {
             position: toast.POSITION.TOP_CENTER
         });

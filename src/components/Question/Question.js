@@ -5,10 +5,8 @@ import { EyeIcon } from '@heroicons/react/24/solid'
 
 const Question = ({ eachQuestion, showWriteAnswer }) => {
     const { question, correctAnswer, options } = eachQuestion;
-    // console.log(correctAnswer);
 
     const handleRightOrWrong = option => {
-        // console.log("clicked");
         if (correctAnswer === option) {
             toast.success("Right Answer!", {
                 position: toast.POSITION.TOP_CENTER
