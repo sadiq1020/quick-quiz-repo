@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Option = ({ option }) => {
+const Option = ({ option, handleWriteOrWrong }) => {
 
     // const handleQuizAnswers = () => {
 
@@ -13,7 +13,7 @@ const Option = ({ option }) => {
             <div>
                 {/* <input type="radio" name="answer" id="answer" />
                 <label for="answer"> {option}</label> */}
-                <input type="radio" value="answer" name="answer" /> {option}
+                <input onClick={() => handleWriteOrWrong(option)} type="radio" value="answer" name="answer" /> {option}
                 {/* <button>{option}</button> */}
 
             </div>
@@ -22,6 +22,10 @@ const Option = ({ option }) => {
 };
 
 export default Option;
+
+
+
+
 
 // onClick={handleQuizAnswers()}  text-start
 
