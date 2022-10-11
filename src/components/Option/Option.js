@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Option = ({ option, handleWriteOrWrong }) => {
+const Option = ({ option, handleRightOrWrong }) => {
 
     // const handleQuizAnswers = () => {
 
@@ -13,9 +13,8 @@ const Option = ({ option, handleWriteOrWrong }) => {
             <div>
                 {/* <input type="radio" name="answer" id="answer" />
                 <label for="answer"> {option}</label> */}
-                <input onClick={() => handleWriteOrWrong(option)} type="radio" value="answer" name="answer" /> {option}
+                <input onClick={() => handleRightOrWrong(option)} type="radio" value="answer" name="answer" /> {option}
                 {/* <button>{option}</button> */}
-
             </div>
         </div >
     );
