@@ -14,7 +14,7 @@ const Blog = () => {
                 <p className='font-semibold text-lg mb-2'>How does context api work?</p>
                 <p className='text-justify'>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. <strong>Context api</strong> provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree. <br /> React Context API, introduced with React v.16.3, allows us to pass data through our component trees, giving our components the ability to communicate and share data at different levels.</p>
                 <br />
-                <p className='font-semibold text-lg mb-2'>How does context api work?</p>
+                <p className='font-semibold text-lg mb-2'>What is useRef hook?</p>
                 <p className='text-justify'><strong>The useRef</strong> is a hook that allows to directly create a reference to the DOM element in the functional component. The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialized to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component.</p>
             </div>
         </div>
