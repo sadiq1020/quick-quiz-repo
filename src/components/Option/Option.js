@@ -9,7 +9,7 @@ const Option = ({ option, handleRightOrWrong }) => {
     // let [color, setColor] = useState(false);
 
     return (
-        <div className={'bg-sky-100 m-1 py-2 px-4 rounded-md border-solid border-2 border-sky-300 lg:w-96'} >
+        <div className={'bg-sky-100 m-1 py-2 px-4 rounded-md border-solid border-2 border-sky-300 w-72 lg:w-96'} >
             <div>
                 {/* <input type="radio" name="answer" id="answer" />
                 <label for="answer"> {option}</label> */}

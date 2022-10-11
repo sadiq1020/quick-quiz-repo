@@ -11,7 +11,7 @@ const QuizTest = () => {
 
 
     const showWriteAnswer = (correctAnswer) => {
-        console.log(correctAnswer);
+        // console.log(correctAnswer);
         toast.info(`Correct Answer: ${correctAnswer}`, {
             position: toast.POSITION.TOP_CENTER
         });

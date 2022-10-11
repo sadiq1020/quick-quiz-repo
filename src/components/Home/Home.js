@@ -8,11 +8,11 @@ const Home = () => {
     // console.log(quizzes);
     return (
         <div>
-            <div className='flex flex-col md:flex-row justify-center items-center md:mx-20'>
+            <div className='flex flex-col md:flex-row justify-center items-center mx-4 md:mx-20'>
                 <div className='w-72'>
                     <img src="https://img.freepik.com/premium-vector/quiz-logo-isolate-white-questionnaire-icon-poll-sign-flat-bubble-speech-symbol_185004-212.jpg" alt="" />
                 </div>
-                <div className='mx-20 text-start'>
+                <div className='text-center md:text-start'>
                     <h2>Quizzes like these will encourage your's self awareness of progress and self assessment. By taking quizzes, you will get instant feedback on your responses. And this can help you identify areas you need to develop yourselves and highlight progress for you to be proud of.</h2>
                 </div>
             </div>

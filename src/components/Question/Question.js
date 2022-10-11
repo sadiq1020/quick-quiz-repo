@@ -21,13 +21,6 @@ const Question = ({ eachQuestion, showWriteAnswer }) => {
         }
     };
 
-    // const showWriteAnswer = () => {
-    //     // console.log('clicked');
-    //     // toast.success({ correctAnswer }, {
-    //     //     position: toast.POSITION.TOP_CENTER 
-    //     // });
-    // }
-
     return (
         <div className='mt-5'>
             <div className='ml-5 lg:mx-[30%] font-semibold'>
@@ -47,8 +40,4 @@ const Question = ({ eachQuestion, showWriteAnswer }) => {
 };
 
 export default Question;
-
-// {/* <div className='ml-4 lg:ml-[60%]'>
-// <EyeIcon onClick={() => showWriteAnswer(option)} className="hover:cursor-pointer h-5 w-5 text-sky-500" />
-// </div> */}
 
