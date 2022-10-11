@@ -1,4 +1,4 @@
-Project name: Quiz Crackerz [Assignment-9]
+Project name: Quick Quiz [Assignment-9]
 
 Live website link: https://glittery-kashata-75f366.netlify.app/
 
